@@ -1,0 +1,34 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.flex-container>div {
+    height: 1000px;
+    width: 100%;
+    border: 5px solid #fff;
+}
+
+.flex-container > .tropical {
+    background: url(https://cdn0.ecologiaverde.com/es/posts/4/3/4/que_es_el_clima_tropical_y_sus_caracteristicas_1434_orig.jpg);
+}
+
+.flex-container > .cold {
+    background: url(https://cdn0.ecologiaverde.com/es/posts/3/5/1/caracteristicas_del_clima_polar_3153_orig.jpg);
+}
+
+.flex-container > .pnw {
+    background: url(https://ohlavan.files.wordpress.com/2019/06/ohlavan-pacific-northwest-03.jpg?w=748);
+}
+
+.flex-container > .desert {
+    background: url(https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/MVSX24KF6FFKNPA37PIJRCK2EY.jpg);
+}
+
+@media only screen and (max-width: 1000px) {
+    .fliex.container {
+        flex-wrap: wrap;
+    }
+}
